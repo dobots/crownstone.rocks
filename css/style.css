@@ -184,6 +184,7 @@ background:rgba(0,0,0,0.5);
 	/*title*/
 	.jasm-title {
         margin-top: 30px;
+		text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
     }
     
     .jasm-title h1 {

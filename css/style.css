@@ -188,7 +188,7 @@ background:rgba(0,0,0,0.5);
     }
     
     .jasm-title h1 {
-    	font-family: 'Raleway';
+    	/*font-family: 'Raleway';*/
     	font-size: 3.5em;
     	font-weight: 300;
         color: #fff;
@@ -492,7 +492,7 @@ margin:0 auto 30px;
 font-size:18px;
 color:#222;
 width:90%;
-font-family:Helvitica;
+/*font-family:Helvitica;*/
 }
 
 /*Subscribe*/

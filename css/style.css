@@ -67,7 +67,7 @@ visibility:hidden !important;
 }
 .jasm-show
 {
-display:block !important; 
+display:block !important;
 }
 
 .jasm-preloader
@@ -162,31 +162,31 @@ background:rgba(0,0,0,0.5);
 	.jasm-logo img {
 		width: 300px;
 	}
-	
+
 	.jasm-logo a {
 		display: block;
 		margin: 0 auto;
 	}
-	
+
 	.jasm-logo img {
 	    vertical-align: bottom;
 	}
-	
+
 	.jasm-logo-1x {
 		display: block;
 	}
-	
+
 	.jasm-logo-2x {
 		display: none;
 	}
-	
-	
+
+
 	/*title*/
 	.jasm-title {
         margin-top: 30px;
 		text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
     }
-    
+
     .jasm-title h1 {
     	/*font-family: 'Raleway';*/
     	font-size: 3.5em;
@@ -195,13 +195,13 @@ background:rgba(0,0,0,0.5);
         margin: 0;
         word-wrap: break-word;
     }
-    
+
     .jasm-title span {
         color: #fff;
         font-weight: 700;
     }
 
-	
+
 	.jasm-line {
 		margin-top: 20px;
 	}
@@ -238,7 +238,7 @@ background:rgba(0,0,0,0.5);
 
     .jasm-countdown div span {
     	width: 150px;
-    	display: block;    	
+    	display: block;
     }
 
     .jasm-countdown div span:first-child {
@@ -295,10 +295,10 @@ background:rgba(0,0,0,0.5);
 	   .description>.container
 	   {
 	   padding-top:50px;
-	   padding-bottom:50px;  
+	   padding-bottom:50px;
 	  }
-	  
-	  
+
+
 	  .jasm-icon-container {
 		padding: 0 20px;
 		text-align:center;
@@ -311,8 +311,8 @@ background:rgba(0,0,0,0.5);
 		text-align: center;
 		color: #fff;
 		margin-left:auto;
-		
-        		
+
+
 		}
 
 	.jasm-icon-container h3 {
@@ -321,7 +321,7 @@ background:rgba(0,0,0,0.5);
 		font-size: 1em;
 		word-wrap: break-word;
 		color: #fff;
-		
+
 	}
 
 	.jasm-icon-container p {
@@ -339,7 +339,7 @@ background:rgba(0,0,0,0.5);
 	}
 
 	.jasm-icon-container > a:hover {
-		color: #000;	
+		color: #000;
 	}
 
 	.jasm-icon-container h3,
@@ -480,11 +480,10 @@ display:block;
 background:#000;
 
 }
-.jasm-opacity
-{
+.jasm-opacity {
 background:rgba(0,0,0,0.89);
 }
-	  
+
 .jasm-lead
 {
 
@@ -497,12 +496,12 @@ width:90%;
 
 /*Subscribe*/
 .subscribe {
-		width: 100%;
-		background-color: #20496F;
-		position: relative;
-		overflow: hidden;
-	}
-	  
+	width: 100%;
+	background-color: #20496F;
+	position: relative;
+	overflow: hidden;
+}
+
 .subscribe > .container {
 		padding-top: 100px;
 		padding-bottom: 66px;
@@ -520,6 +519,7 @@ width:90%;
 		font-weight: 700;
 	}
 
+    .
     .jasm-subscribe-form {
     	margin-top: 6px;
     }
@@ -528,7 +528,7 @@ width:90%;
     	width: 65%;
     	height: 60px;
     	display: block;
-    	padding: 0 20px;    	
+    	padding: 0 20px;
     	background-color: #fff;
         border: 1px solid #fff;
 		-webkit-border-top-left-radius: 2px;
@@ -545,12 +545,12 @@ width:90%;
     .jasm-subscribe-form input:focus {
     	outline: 0;
     }
-    
+
     .jasm-subscribe-form input[type=submit] {
     	width: 35%;
     	height: 60px;
     	display: block;
-    	padding: 0 10px; 
+    	padding: 0 10px;
     	background-color: #20496F;
         border: 1px solid #fff;
         color: #fff;
@@ -559,9 +559,9 @@ width:90%;
 		-moz-border-radius-topright: 3px;
 		-moz-border-radius-bottomright: 3px;
 		border-top-right-radius: 3px;
-		border-bottom-right-radius: 3px;        
+		border-bottom-right-radius: 3px;
 		font-family: 'Raleway';
-		font-weight: 700;	
+		font-weight: 700;
 		transition: all 0.125s ease-in-out 0s;
 		-moz-transition: all 0.125s ease-in-out 0s;
 		-webkit-transition: all 0.125s ease-in-out 0s;
@@ -594,7 +594,7 @@ width:90%;
 
     .lj-subscribe-message .fa-check {
     	color: #89d460;
-    }    
+    }
 /*footer*/
 .parallax-back
 {
@@ -659,4 +659,4 @@ color:#20496F;
 		}
 		}
 
-	  
+

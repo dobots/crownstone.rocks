@@ -60,9 +60,11 @@
 
     // backstretch
     $("header").backstretch("img/bg.jpg");
+    $("#header2").backstretch("img/exploded_view.jpg");
 
     window.onresize = function() {
       $("header").backstretch("img/bg.jpg");
+      $("#header2").backstretch("img/exploded_view.jpg");
     }
 
 

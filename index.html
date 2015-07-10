@@ -26,28 +26,33 @@ DoBots - Crownstone rocks!
             color:white;
         }
 
+        .white {
+            color:white;
+        }
         .txtshadow {
             text-shadow: 1px 1px 5px rgba(0,0,0,0.75);
         }
 
-        .leftOffset{
-            position:relative;
-            left:-175px;
-
-        }
-
         .halfwidth {
             width:320px;
+        }
+
+        .list {
+            font-size:14px;
+        }
+
+        #header2{
+            width:100%;
+            /*background-image:url("./img/exploded_view.jpg");*/
+            height:550px;
+            border-top: 2px solid white;
+            border-bottom: 2px solid white;
         }
     </style>
 
 </head>
 
 <body>
- <!-- PRELOADER STARTS HERE -->
-  <!--<div class="jasm-preloader"></div>-->
-  <!-- /PRELOADER ENDS HERE-->
-
   <!-- HEADER STARTS HERE -->
   <header>
     <div class="container">
@@ -57,7 +62,7 @@ DoBots - Crownstone rocks!
         <!-- LOGO STARTS HERE -->
           <div class="row">
             <div class="col-xs-12 jasm-logo">
-              <a href="#" title="">
+              <a href="http://www.dobots.nl" title="DoBots website" target="_blank">
                 <img src="img/logo-1x.png" class="jasm-logo-1x" alt="">
               </a>
             </div>
@@ -71,14 +76,6 @@ DoBots - Crownstone rocks!
             </div>
           </div>
         <!-- /TITLE  ENDS HERE-->
-
-        <!-- LINE STARTS HERE -->
-          <!--<div class="row">-->
-            <!--<div class="col-xs-12 jasm-line">-->
-              <!--<div></div>-->
-            <!--</div>-->
-          <!--</div>-->
-        <!-- /LINE -->
 
         <!-- TITLE PARAGRAPH STARTS HERE -->
           <div class="row">
@@ -115,7 +112,28 @@ DoBots - Crownstone rocks!
   </header>
   <!-- /HEADER ENDS HERE-->
 
-<section class='description jasm-s'>
+  <section class='description jasm-s'>
+      <div class='container'>
+          <!-- COLUMNS STARTS HERE -->
+          <div class="jasm-text-center white">
+              <h2>So what makes it special?</h2>
+              <p class="jasm-lead white">We at DoBots believe Internet-of-Things, or IoT, is the future! There are many great products available
+                  to create your own smart house, so why did we build another one? We set out to create the cheapest, modular solution on the market
+                  and with our background in software engineering, we think the Crownstone also takes the crown in terms of features:
+              </p>
+              <div class="list">
+                 <br /><i class="fa fa-angle-right"></i> Turning devices on and off using Bluetooth Low Energy (BLE), through phone or the internet.
+                 <br /><i class="fa fa-angle-right"></i> Dimming the lights with your smartphone.
+                 <br /><i class="fa fa-angle-right"></i> Measuring power consumption of lights/devices.
+                 <br /><i class="fa fa-angle-right"></i> Localization of BLE enabled devices, like smartphones, Fitbits, etc..
+                 <br /><i class="fa fa-angle-right"></i> Identifying devices based on their consumption patterns.
+                 <br /><i class="fa fa-angle-right"></i> Applications like a childlock on certain devices when you're away from home and many more!
+              </div>
+          </div>
+          <!-- /COLUMNS -->
+      </div>
+
+    <div class="hidden-sm hidden-xs backgroundImage" id="header2"></div>
 <div class='container'>
  <!-- COLUMNS STARTS HERE -->
 <div class="row">
@@ -130,20 +148,20 @@ DoBots - Crownstone rocks!
           </p>
           <p>
           The Crownstone comes in a modern built-in version that fits into any power outlet, as well as a plug-in
-          version for American (110V) and European (230V) outlets (concept shown on image).
+          version for American (110V) and European (230V) outlets (concepts shown on images).
           </p>
         </div>
 
         <div  class="col-sm-4 jasm-icon-container">
           <span><i class="fa fa-cogs"></i></span>
-          <h3 class="jasm-text-uppercase">Features</h3>
+          <h3 class="jasm-text-uppercase">Details</h3>
           <p>
-          The Crownstone is integrated with smartphones as well as smartphone add-ons such as the FitBit, or Pebble.
+          The Crownstone is integrated with smartphones as well as smartphone add-ons such as the <a href="https://www.fitbit.com/" target="_blank">Fitbit</a>, or <a href="https://getpebble.com/" target="_blank">Pebble</a>.
           It forms a mesh to communicate through the entire house, and a Raspberry PI can be used as a hub to the
           internet.
           </p>
           <p>
-          It's most interesting feature is that it is able to recognize devices by their power profile. You do not need
+          Its most interesting feature is that it is able to recognize devices by their power profile. You do not need
           to configure that you use a curling iron for a particular socket. It will recognize this and automatically
           turn it off, when you forget to unplug it after use.
           </p>
@@ -153,13 +171,13 @@ DoBots - Crownstone rocks!
           <span><i class="fa fa-users"></i></span>
           <h3 class="jasm-text-uppercase">Open source</h3>
           <p>
-          The Crownstone embedded software is open-source and already placed online at
+          The Crownstone embedded software is open source and already placed online at
           <a href="https://github.com/dobots/bluenet">Github</a>!</p>
             <p>
-              For the maker community who want to use Crownstones to create their own smart building, we provide a full-featured API you can
+              For the maker community who wants to use Crownstones to create their own smart building, we provide a full-featured API you can
                 access through Bluetooth. </p>
             <p>This is not required! Crownstones come with a lot of functionality so everyone can use it
-                out of the box, without having do any coding themselves.
+                out of the box, without having to do any coding themselves.
           </p>
         </div>
       </div>
@@ -260,7 +278,7 @@ DoBots - Crownstone rocks!
             <div id="mc_embed_signup_scroll" class="form-group">
               <div class="clearfix">
               <div>
-                <input type="text" value="" name="EMAIL" class="required" id="mce-EMAIL" placeholder="You want to be the first to know!?">
+                <input type="text" value="" name="EMAIL" class="required" id="mce-EMAIL" placeholder="Submit your email and be the first to know!">
               </div>
               <div id="mce-responses" class="clear">
                 <div class="response" id="mce-error-response" style="display:none"></div>
@@ -268,7 +286,7 @@ DoBots - Crownstone rocks!
               </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
               <div style="position: absolute; left: -5000px;"><input type="text" name="b_d03baf337210e326a61dc14d5_a23d3e9ded" tabindex="-1" value=""></div>
               <div class="clear">
-                <input type="submit" value="Submit" name="Submit" id="mc-embedded-subscribe" class="btn-submit">
+                <input type="submit" value="Subscribe!" name="Submit" id="mc-embedded-subscribe" class="btn-submit">
               </div>
               </div>
             </div>
@@ -282,26 +300,21 @@ DoBots - Crownstone rocks!
 
   <!--CONTACTS-->
   <footer class="contact jasm-s">
-
     <div class="parallax-back" >
       <div class="opcaity">
       <div class="w-container wrap">
-
-                  <div class="jasm-text-center">
-                    <h1 class="underline">GET IN TOUCH</h1>
-                    <p>Journalist? Email us to get directly in contact for sneak previews and demonstrations!</p>
-                    <div class="social-footter">
-                      <script type="text/javascript">/*<![CDATA[*/var a=new Array(".nl","bots","do","@","ne","an");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=The Crownstone Rocks!'><i class='fa fa-envelope-o fa-2x'></i></a>");/*]]>*/</script>
-                      <a href="https://twitter.com/botsdo"><i class="fa fa-twitter fa-2x"></i></a>
-                      <a href="http://facebook.com/dobots"><i class="fa fa-facebook fa-2x"></i></a>
-                      <a href="https://plus.google.com/b/111213089446849773751/+DistributedOrganismsBVRotterdam/posts"><i class="fa fa-google-plus fa-2x"></i></a>
-                      <a href="https://www.linkedin.com/company/do-distributed-organisms-"><i class="fa fa-linkedin fa-2x"></i></a>
-                      <a href="https://www.youtube.com/channel/UC7bsuzp2BfL5F5RX07oLIzw"><i class="fa fa-youtube fa-2x"></i></a>
-                    </div>
-
-
-        </div>
-
+          <div class="jasm-text-center">
+            <h1 class="underline">GET IN TOUCH</h1>
+            <p>Journalist? Email us to get directly in contact for sneak previews and demonstrations!</p>
+            <div class="social-footter">
+              <script type="text/javascript">/*<![CDATA[*/var a=new Array(".nl","bots","do","@","ne","an");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=The Crownstone Rocks!'><i class='fa fa-envelope-o fa-2x'></i></a>");/*]]>*/</script>
+              <a href="https://twitter.com/botsdo"><i class="fa fa-twitter fa-2x"></i></a>
+              <a href="http://facebook.com/dobots"><i class="fa fa-facebook fa-2x"></i></a>
+              <a href="https://plus.google.com/b/111213089446849773751/+DistributedOrganismsBVRotterdam/posts"><i class="fa fa-google-plus fa-2x"></i></a>
+              <a href="https://www.linkedin.com/company/do-distributed-organisms-"><i class="fa fa-linkedin fa-2x"></i></a>
+              <a href="https://www.youtube.com/channel/UC7bsuzp2BfL5F5RX07oLIzw"><i class="fa fa-youtube fa-2x"></i></a>
+            </div>
+          </div>
       </div>
     </div>
     </div>

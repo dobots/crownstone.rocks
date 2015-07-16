@@ -9,6 +9,7 @@ DoBots - Crownstone rocks!
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -39,6 +40,20 @@ DoBots - Crownstone rocks!
 
         .list {
             font-size:14px;
+        }
+
+        table.footerTable {
+            width:300px;
+            margin:15px auto auto auto;
+        }
+
+        .rightText {
+            text-align:right;
+        }
+
+        .midPadding {
+            padding-top:90px !important;
+            padding-bottom:80px !important;
         }
 
         #header2{
@@ -255,11 +270,11 @@ DoBots - Crownstone rocks!
 
 <!--REGISTRATION-->
 <section  class="subscribe jasm-s">
-    <div class="container">
+    <div class="container midPadding">
       <div class="row">
         <!-- SUBSCRIBE TITLE -->
         <div  class="col-sm-12 col-md-6 jasm-subscribe-title">
-          <h3>Subscribe and be the first to know!</h3>
+          <h3 class="rightText">Subscribe and be the first to know!</h3>
         </div>
         <!-- /SUBSCRIBE TITLE -->
 
@@ -307,12 +322,25 @@ DoBots - Crownstone rocks!
             <h1 class="underline">GET IN TOUCH</h1>
             <p>Journalist? Email us to get directly in contact for sneak previews and demonstrations!</p>
             <div class="social-footter">
-              <script type="text/javascript">/*<![CDATA[*/var a=new Array(".nl","bots","do","@","ne","an");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=The Crownstone Rocks!'><i class='fa fa-envelope-o fa-2x'></i></a>");/*]]>*/</script>
-              <a href="https://twitter.com/botsdo"><i class="fa fa-twitter fa-2x"></i></a>
-              <a href="http://facebook.com/dobots"><i class="fa fa-facebook fa-2x"></i></a>
-              <a href="https://plus.google.com/b/111213089446849773751/+DistributedOrganismsBVRotterdam/posts"><i class="fa fa-google-plus fa-2x"></i></a>
-              <a href="https://www.linkedin.com/company/do-distributed-organisms-"><i class="fa fa-linkedin fa-2x"></i></a>
-              <a href="https://www.youtube.com/channel/UC7bsuzp2BfL5F5RX07oLIzw"><i class="fa fa-youtube fa-2x"></i></a>
+              <table class="footerTable"><tr><td>
+                  <script type="text/javascript">/*<![CDATA[*/var a=new Array(".nl","bots","do","@","ne","an");document.write("<a href='mailto:");for(i=a.length-1;i>=0;i--){document.write(a[i])}document.write("?subject=The Crownstone Rocks!'><img src=\"./img/social/email.png\" /></a>");/*]]>*/</script>
+              </td>
+                  <td>
+                      <a href="https://twitter.com/botsdo"><img src="./img/social/twitter.png" /></a>
+                  </td>
+                  <td>
+                      <a href="http://facebook.com/dobots"><img src="./img/social/facebook.png" /></a>
+                  </td>
+                  <td>
+                      <a href="https://plus.google.com/b/111213089446849773751/+DistributedOrganismsBVRotterdam/posts"><img src="./img/social/googlePlus.png" /></a>
+                  </td>
+                  <td>
+                      <a href="https://www.linkedin.com/company/do-distributed-organisms-"><img src="./img/social/linkedIn.png" /></a>
+                  </td>
+                  <td>
+                      <a href="https://www.youtube.com/channel/UC7bsuzp2BfL5F5RX07oLIzw"><img src="./img/social/youtube.png" /></a>
+                  </td>
+              </tr></table>
             </div>
           </div>
       </div>

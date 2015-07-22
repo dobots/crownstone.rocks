@@ -550,9 +550,9 @@ width:90%;
     	height: 60px;
     	display: block;
     	padding: 0 10px;
-    	background-color: #20496F;
-        border: 1px solid #fff;
-        color: #fff;
+    	background-color: rgba(255, 255, 255, 0.3);
+        border: 1px solid rgba(32, 73, 111, 1);
+        color:rgba(32, 73, 111, 1);
 		font-size:24px;
 		-webkit-border-top-right-radius: 3px;
 		-webkit-border-bottom-right-radius: 3px;
@@ -571,7 +571,7 @@ width:90%;
     }
 
     .jasm-subscribe-form input[type=submit]:hover {
-    	background-color: transparent;
+    	background-color: rgba(32, 73, 111, 0.88);
     	border: 1px solid #2fa9ff;
     	color: #2fa9ff;
     }

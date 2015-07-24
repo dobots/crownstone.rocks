@@ -1,12 +1,12 @@
 /*
-  Author:Vijayan PP
-  Template: JASM-Coming Soon Website Template
-  Version: 1.0
-  */
+   Author:Vijayan PP
+   Template: JASM-Coming Soon Website Template
+   Version: 1.0
+   */
 
 (function($) {
-  "use strict"; 
-  
+  "use strict";
+
   $(document).ready(function (){
     'use strict';
 
@@ -16,14 +16,10 @@
       return pattern.test(emailAddress);
     };
 
-    
-    
     $('#subscribe').ajaxChimp({
       language: 'lj',
       url: 'http://www.your-plugin.co'//enter url here
     });
-
-    
 
     $.ajaxChimp.translations.lj = {
       'submit': 'Submitting...',
@@ -36,14 +32,12 @@
     }
 
     // Contact form functions
-    
 
-    
-    $(".jasm-scroll-down").click(function(e) { 
+    $(".jasm-scroll-down").click(function(e) {
       e.preventDefault();
       $('html,body').animate({
         scrollTop: $("header").nextAll('.jasm-s').offset().top},
-        1250);           
+        1250);
     });
 
     // Countdown
@@ -67,53 +61,46 @@
       $("#header2").backstretch("img/exploded_view.jpg");
     }
 
-
-
     $(function () {
       var wrapper_height = $('.wrapper').height();
       var negative_margin = -(wrapper_height / 2);
       $('.wrapper').css({'marginTop':negative_margin+'px'});
     });
-	
-	function scrolldown() {
-    var header_h = $('header').height();
-    var scrolldown = $('.jasm-scroll-down');
 
-    if( header_h >= 650 )
-	{
-      scrolldown.show();
-	  }
-    else
-      scrolldown.show();
-  }
+    function scrolldown() {
+      var header_h = $('header').height();
+      var scrolldown = $('.jasm-scroll-down');
 
+      if( header_h >= 650 )
+      {
+        scrolldown.show();
+      }
+      else
+        scrolldown.show();
+    }
 
-    
     scrolldown();
 
-    
     (function($) {
       window.scrollReveal = new scrollReveal();
     })();
 
-    
+
     $(function () {
       $.stellar({
         horizontalScrolling: false
       });
     });
 
-  
-    
   });
 
   // Scroll down button show/hide function re-init on window resize
   $(window).on('resize', function(){
-      scrolldown();
+    //TODO: not defined! scrolldown();
   });
 
   // Preloader
-  
+
   $(window).load(function() {
     $(".jasm-preloader").delay(100).fadeOut(600);
   });

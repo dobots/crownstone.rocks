@@ -554,21 +554,49 @@ width:90%;
     	background-color: rgba(255, 255, 255, 0.3);
         border: 1px solid rgba(32, 73, 111, 1);
         color:rgba(32, 73, 111, 1);
-		font-size:24px;
-		-webkit-border-top-right-radius: 3px;
-		-webkit-border-bottom-right-radius: 3px;
-		-moz-border-radius-topright: 3px;
-		-moz-border-radius-bottomright: 3px;
-		border-top-right-radius: 3px;
-		border-bottom-right-radius: 3px;
-		/*font-family: 'Raleway';*/
-		font-weight: 500;
-		transition: all 0.125s ease-in-out 0s;
-		-moz-transition: all 0.125s ease-in-out 0s;
-		-webkit-transition: all 0.125s ease-in-out 0s;
-		-o-transition: all 0.125s ease-in-out 0s;
-		-ms-transition: all 0.125s ease-in-out 0s;
-		float: right;
+	font-size:150%;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-bottomright: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	/*font-family: 'Raleway';*/
+	font-weight: 500;
+	transition: all 0.125s ease-in-out 0s;
+	-moz-transition: all 0.125s ease-in-out 0s;
+	-webkit-transition: all 0.125s ease-in-out 0s;
+	-o-transition: all 0.125s ease-in-out 0s;
+	-ms-transition: all 0.125s ease-in-out 0s;
+	float: right;
+    }
+
+    /* add smaller font-size for smaller devices */
+    @media(max-device-width:480px) {
+      .jasm-subscribe-form input[type=submit] {
+	  width: 35%;
+	  height: 60px;
+	  display: block;
+	  padding: 0 10px;
+	  background-color: rgba(255, 255, 255, 0.3);
+	  border: 1px solid rgba(32, 73, 111, 1);
+	  color:rgba(32, 73, 111, 1);
+	  font-size:120%;
+	  -webkit-border-top-right-radius: 3px;
+	  -webkit-border-bottom-right-radius: 3px;
+	  -moz-border-radius-topright: 3px;
+	  -moz-border-radius-bottomright: 3px;
+	  border-top-right-radius: 3px;
+	  border-bottom-right-radius: 3px;
+	  /*font-family: 'Raleway';*/
+	  font-weight: 500;
+	  transition: all 0.125s ease-in-out 0s;
+	  -moz-transition: all 0.125s ease-in-out 0s;
+	  -webkit-transition: all 0.125s ease-in-out 0s;
+	  -o-transition: all 0.125s ease-in-out 0s;
+	  -ms-transition: all 0.125s ease-in-out 0s;
+	  float: right;
+      }
     }
 
     .jasm-subscribe-form input[type=submit]:hover {

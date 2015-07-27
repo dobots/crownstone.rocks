@@ -84,6 +84,12 @@
           border-top: 2px solid white;
           border-bottom: 2px solid white;
         }
+
+        div.topRight {
+          position:absolute;
+          top:10px;
+          right:10px;
+        }
       </style>
 
     <script>
@@ -100,26 +106,24 @@
   <body>
     <!-- HEADER STARTS HERE -->
     <header>
+      <div class="topRight hidden-xs">
+        <img src="./img/kickstarter_coming_soon.png">
+      </div>
       <div class="container">
 
         <div class="wrapper">
 
+
           <!-- LOGO STARTS HERE -->
           <div class="row">
-            <div class="col-xs-6 hidden-xs">
-              <a href="http://www.dobots.nl" title="DoBots website" target="_blank">
-                <img src="img/logo-1x.png" alt="" class="pull-right">
-              </a>
-            </div>
-            <div class="col-xs-12 visible-xs">
+            <div class="col-xs-12">
               <a href="http://www.dobots.nl" title="DoBots website" target="_blank">
                 <img src="img/logo-1x.png" alt="" class="center-block">
               </a>
             </div>
-            <div class="col-xs-6 hidden-xs">
-              <img src="./img/kickstarter_coming_soon.png"  class="pull-left">
-            </div>
           </div>
+
+
           <!-- /LOGO ENDS HERE -->
 
           <!-- TITLE STARTS HERE -->

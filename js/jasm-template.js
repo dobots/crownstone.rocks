@@ -43,7 +43,7 @@
     // Countdown
     // To change date, simply edit: var Datetoend = "Nov 26, 2015 20:39:00";
     $(function() {
-      var Datetoend = "Sep8 , 2015 13:00:00";
+      var Datetoend = "Sep 8, 2015 13:00:00";
       $('.jasm-countdown .row').countdown({
         date: Datetoend,
         render: function(data) {

@@ -132,10 +132,10 @@
         window._fbq.push(['track', '6026961207847', {'value':'0.01','currency':'EUR'}]);
 
         function trackConversionEvent(val, cny) {
-          var cd = {};
-          cd.value = val;
-          cd.currency = cny;
-          _fbq.push(['track', '6026961207847', cd]);
+          //var cd = {};
+          //cd.value = val;
+          //cd.currency = cny;
+          //_fbq.push(['track', '6026961207847', cd]);
 
           ga('send', 'event', 'click', 'subscribe');
         }
@@ -223,9 +223,7 @@
                                 </div>
                                 <div style="position: absolute; left: -5000px;"><input type="text" name="b_d03baf337210e326a61dc14d5_a23d3e9ded" tabindex="-1" value=""></div>
                                 <div class="clear">
-                                  <input type="submit" value="Subscribe!" name="Submit" id="mc-embedded-subscribe" class="btn-submit">
-                                  <!--
-                                    <input type="submit" value="Subscribe!" name="Submit" id="mc-embedded-subscribe" class="btn-submit" onClick="trackConversionEvent('0.02','USD');"> -->
+                                  <input type="submit" value="Subscribe!" name="Submit" id="mc-embedded-subscribe" class="btn-submit" onClick="trackConversionEvent('0.02','USD');">
                                 </div>
                             </div>
                                 <h5 class="jasm-text-center txtshadow">*To be an early bird on <a href="http://kickstarter.com">kickstarter.com</a> has benefits!</h5>
